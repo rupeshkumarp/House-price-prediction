@@ -95,4 +95,17 @@ python app.py
 **Logs & Outputs**
 - Check the `logs/` folder for run logs, saved models, or exported predictions.
 
+**Contributing**
+- Make small, focused PRs. Describe changes and include how to reproduce results.
 
+**License**
+- Add a `LICENSE` file if you intend to open-source the project.
+
+---
+
+If you want, I can:
+- add a `requirements.txt` generated from the environment
+- update `app.py` to accept CLI args or a `--predict` mode
+- add a minimal example showing how to train and save a model
+
+Please tell me which of these you'd like next.
