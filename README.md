@@ -37,12 +37,3 @@ Adjust commands above if your environment uses `python3` or a virtual environmen
 **Data**
 - `predictions_data.csv` is the example dataset — keep any large datasets out of the repo and reference them in `.gitignore` if needed.
 
-**Logs & Outputs**
-- Check the `logs/` folder for run logs, saved models, or exported predictions.
-
-**Contributing**
-- Make small, focused PRs. Describe changes and include how to reproduce results.
-
-**License**
-- Add a `LICENSE` file if you intend to open-source the project.
-
