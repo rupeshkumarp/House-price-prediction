@@ -1,4 +1,4 @@
-# 🏠 House Price Prediction
+# House Price Prediction
 
 A machine learning project that predicts house prices using the **Random Forest Regressor** algorithm. The project includes data preprocessing, feature engineering, model training, evaluation, and a runnable `app.py` for making house price predictions.
 
@@ -24,7 +24,7 @@ This project uses the **Random Forest Regressor**, an ensemble learning algorith
 
 ---
 
-## ⚙️ Requirements
+## Requirements
 
 Install the required dependencies:
 
@@ -69,16 +69,9 @@ The application loads the trained Random Forest model and predicts house prices.
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### Create and Activate a Virtual Environment
-
-### Windows (PowerShell)
-
-```bash
-python -m venv venv
-.\venv\Scripts\Activate.ps1
-```
 
 ### Windows (Command Prompt)
 
@@ -87,22 +80,9 @@ python -m venv venv
 venv\Scripts\activate.bat
 ```
 
-### macOS / Linux
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
 ### Install Dependencies
 ```bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter datetime logging
-```
-
-### Run the Notebook
-
-```bash
-jupyter notebook data_preprossing.ipynb
 ```
 
 ### Run the Application
