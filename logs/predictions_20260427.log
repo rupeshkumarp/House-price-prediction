@@ -1,0 +1,48 @@
+2026-04-27 21:57:57 - INFO - Model loaded successfully
+2026-04-27 21:58:01 - INFO - Model loaded successfully
+2026-04-27 21:58:03 - INFO - Model loaded successfully
+2026-04-27 22:00:25 - INFO - Model loaded successfully
+2026-04-27 22:00:28 - INFO - Model loaded successfully
+2026-04-27 22:00:32 - INFO - Model loaded successfully
+2026-04-27 22:00:35 - INFO - Model loaded successfully
+2026-04-27 22:00:39 - INFO - Model loaded successfully
+2026-04-27 22:00:40 - INFO - Model loaded successfully
+2026-04-27 22:00:43 - INFO - Model loaded successfully
+2026-04-27 22:00:52 - INFO - Model loaded successfully
+2026-04-27 22:00:54 - INFO - Model loaded successfully
+2026-04-27 22:00:54 - INFO - Prediction made - Bedrooms: 3, Bathrooms: 2, Floors: 2, Waterfront: 1, Year Built: 1966, Year Renovated: 1990, City Code: 25, Predicted Price: $1,546,165.00
+2026-04-27 22:05:16 - INFO - Model loaded successfully
+2026-04-27 22:05:19 - INFO - Model loaded successfully
+2026-04-27 22:05:22 - INFO - Model loaded successfully
+2026-04-27 22:08:19 - INFO - Model loaded successfully
+2026-04-27 22:08:31 - INFO - Model loaded successfully
+2026-04-27 22:08:34 - INFO - Model loaded successfully
+2026-04-27 22:08:41 - INFO - Model loaded successfully
+2026-04-27 22:08:44 - INFO - Model loaded successfully
+2026-04-27 22:08:46 - INFO - Model loaded successfully
+2026-04-27 22:08:48 - INFO - Model loaded successfully
+2026-04-27 22:08:48 - INFO - Prediction made - Bedrooms: 2, Bathrooms: 1, Floors: 2, Waterfront: 0, Year Built: 1991, Year Renovated: 0, City Code: 33, Predicted Price: $293,456.70
+2026-04-27 22:10:30 - INFO - Model loaded successfully
+2026-04-27 22:10:35 - INFO - Model loaded successfully
+2026-04-27 22:10:38 - INFO - Model loaded successfully
+2026-04-27 22:10:44 - INFO - Model loaded successfully
+2026-04-27 22:10:47 - INFO - Model loaded successfully
+2026-04-27 22:10:47 - INFO - Prediction made - Bedrooms: 3, Bathrooms: 3, Floors: 1, Waterfront: 0, Year Built: 2000, Year Renovated: 0, City Code: 17, Predicted Price: $495,586.71
+2026-04-27 22:10:47 - INFO - Prediction data saved to predictions_data.csv
+2026-04-27 22:12:58 - INFO - Model loaded successfully
+2026-04-27 22:13:04 - INFO - Model loaded successfully
+2026-04-27 22:13:06 - INFO - Model loaded successfully
+2026-04-27 22:13:09 - INFO - Model loaded successfully
+2026-04-27 22:13:10 - INFO - Model loaded successfully
+2026-04-27 22:13:14 - INFO - Model loaded successfully
+2026-04-27 22:21:16 - INFO - Model loaded successfully
+2026-04-27 22:21:55 - INFO - Model loaded successfully
+2026-04-27 22:21:58 - INFO - Model loaded successfully
+2026-04-27 22:22:02 - INFO - Model loaded successfully
+2026-04-27 22:22:07 - INFO - Model loaded successfully
+2026-04-27 22:22:09 - INFO - Model loaded successfully
+2026-04-27 22:22:12 - INFO - Model loaded successfully
+2026-04-27 22:22:15 - INFO - Model loaded successfully
+2026-04-27 22:22:20 - INFO - Model loaded successfully
+2026-04-27 22:22:20 - INFO - Prediction made - Bedrooms: 1, Bathrooms: 2, Floors: 1, Waterfront: 0, Year Built: 1959, Year Renovated: 2000, City Code: 14, Predicted Price: $270,844.08
+2026-04-27 22:22:20 - INFO - Prediction data saved to predictions_data.csv

@@ -1,0 +1,23 @@
+2026-04-29 09:46:34 - INFO - Model loaded successfully
+2026-04-29 09:46:44 - INFO - Model loaded successfully
+2026-04-29 09:46:46 - INFO - Model loaded successfully
+2026-04-29 09:46:47 - INFO - Model loaded successfully
+2026-04-29 09:46:51 - INFO - Model loaded successfully
+2026-04-29 09:46:55 - INFO - Model loaded successfully
+2026-04-29 09:46:57 - INFO - Model loaded successfully
+2026-04-29 09:46:59 - INFO - Model loaded successfully
+2026-04-29 09:47:01 - INFO - Model loaded successfully
+2026-04-29 09:47:01 - INFO - Prediction made - Bedrooms: 7, Bathrooms: 5, Floors: 1, Waterfront: 0, Year Built: 1959, Year Renovated: 0, City Code: 7, Predicted Price: $874,894.66
+2026-04-29 09:47:01 - INFO - Prediction data saved to predictions_data.csv
+2026-04-29 09:47:11 - INFO - Model loaded successfully
+2026-04-29 09:47:13 - INFO - Model loaded successfully
+2026-04-29 09:47:15 - INFO - Model loaded successfully
+2026-04-29 09:47:18 - INFO - Model loaded successfully
+2026-04-29 09:47:19 - INFO - Model loaded successfully
+2026-04-29 09:47:21 - INFO - Model loaded successfully
+2026-04-29 09:47:22 - INFO - Model loaded successfully
+2026-04-29 09:47:24 - INFO - Model loaded successfully
+2026-04-29 09:47:29 - INFO - Model loaded successfully
+2026-04-29 09:47:32 - INFO - Model loaded successfully
+2026-04-29 09:47:33 - INFO - Prediction made - Bedrooms: 4, Bathrooms: 2, Floors: 1, Waterfront: 0, Year Built: 1981, Year Renovated: 0, City Code: 17, Predicted Price: $482,166.00
+2026-04-29 09:47:33 - INFO - Prediction data saved to predictions_data.csv
