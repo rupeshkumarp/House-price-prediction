@@ -1,96 +1,148 @@
-# House Price Prediction
+# 🏠 House Price Prediction
 
-Simple house price prediction project using Python. Includes a preprocessing notebook, a sample dataset, a runnable `app.py`, and a `logs/` folder for outputs.
+A machine learning project that predicts house prices using the **Random Forest Regressor** algorithm. The project includes data preprocessing, feature engineering, model training, evaluation, and a runnable `app.py` for making house price predictions.
 
-**Project Structure**
-- [app.py](app.py) : Main script to run the project or API (if implemented).
-- [data_preprossing.ipynb](data_preprossing.ipynb) : Jupyter notebook for data cleaning and feature engineering.
-- [predictions_data.csv](predictions_data.csv) : Sample dataset used for training/validation.
-- [logs/](logs/) : Directory where run logs, model artifacts, or outputs are stored.
+## Project Structure
 
-**Requirements**
-Install the typical dependencies with pip:
+* **app.py** – Main application used to load the trained model and predict house prices.
+* **data_preprossing.ipynb** – Jupyter Notebook containing data cleaning, preprocessing, exploratory data analysis (EDA), feature engineering, and Random Forest model training.
+* **predictions_data.csv** – Sample dataset used for training and testing the model.
+* **logs/** – Directory containing logs, model outputs, or prediction results.
 
-```
+---
+
+## Machine Learning Model
+
+This project uses the **Random Forest Regressor**, an ensemble learning algorithm that combines multiple decision trees to improve prediction accuracy and reduce overfitting.
+
+### Why Random Forest?
+
+* Handles complex, non-linear relationships effectively.
+* Produces accurate and reliable predictions.
+* Reduces overfitting compared to a single Decision Tree.
+* Performs well on regression tasks.
+
+---
+
+## ⚙️ Requirements
+
+Install the required dependencies:
+
+```bash
 pip install -r requirements.txt
 ```
 
-If you don't have a `requirements.txt`, you can install commonly used packages:
+If you don't have a `requirements.txt` file, install the commonly used packages manually:
 
-```
+```bash
 pip install pandas numpy scikit-learn matplotlib seaborn jupyter
 ```
 
-**Quick Start**
-- Run the preprocessing and exploration in the notebook: open `data_preprossing.ipynb` with Jupyter Lab/Notebook.
-- To run the script (if it exposes a CLI or demo):
+---
 
+## Quick Start
+
+### 1. Run the preprocessing notebook
+
+Open the notebook using Jupyter Notebook or JupyterLab:
+
+```bash
+jupyter notebook data_preprossing.ipynb
 ```
+
+The notebook performs:
+
+* Data Cleaning
+* Missing Value Handling
+* Feature Engineering
+* Exploratory Data Analysis (EDA)
+* Random Forest Model Training
+* Model Evaluation
+
+### 2. Run the application
+
+```bash
 python app.py
 ```
 
-Adjust commands above if your environment uses `python3` or a virtual environment.
+The application loads the trained Random Forest model and predicts house prices.
 
-**How to run**
-Follow these steps to run the project locally on Windows (adjust for macOS/Linux):
+---
 
-1. Create and activate a virtual environment
+## ▶️ How to Run
 
-PowerShell:
+### Create and Activate a Virtual Environment
 
-```
+### Windows (PowerShell)
+
+```bash
 python -m venv venv
 .\venv\Scripts\Activate.ps1
 ```
 
-Command Prompt (cmd.exe):
+### Windows (Command Prompt)
 
-```
+```bash
 python -m venv venv
 venv\Scripts\activate.bat
 ```
 
-WSL / macOS / Linux:
+### macOS / Linux
 
-```
+```bash
 python3 -m venv venv
 source venv/bin/activate
 ```
 
-2. Install dependencies
-
-```
-pip install -r requirements.txt
-```
-
-If you don't have a `requirements.txt`, install common packages:
-
-```
-pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+### Install Dependencies
+```bash
+pip install pandas numpy scikit-learn matplotlib seaborn jupyter datetime logging
 ```
 
-3. Run the notebook (exploration & preprocessing)
+### Run the Notebook
 
-```
+```bash
 jupyter notebook data_preprossing.ipynb
 ```
 
-4. Run the application script (if implemented)
+### Run the Application
 
-```
+```bash
 python app.py
 ```
 
-5. Check outputs
+### Check Outputs
 
-- Look in the `logs/` folder for run logs, saved models, or exported predictions.
+The generated outputs, logs, or predictions will be available in the **logs/** directory.
 
+---
 
-**Notebook**
-- The notebook contains step-by-step data cleaning, feature engineering, and basic model training. Use it to reproduce experiments or export a trained model.
+## Notebook
 
-**Data**
-- `predictions_data.csv` is the example dataset — keep any large datasets out of the repo and reference them in `.gitignore` if needed.
+The notebook demonstrates the complete machine learning workflow, including:
 
-**Logs & Outputs**
-- Check the `logs/` folder for run logs, saved models, or exported predictions.
+* Data Cleaning
+* Data Preprocessing
+* Exploratory Data Analysis (EDA)
+* Feature Engineering
+* Random Forest Model Training
+* Model Evaluation
+* House Price Prediction
+
+---
+
+## Dataset
+
+`predictions_data.csv` contains the housing dataset used to train and evaluate the Random Forest Regression model.
+
+---
+
+## Technologies Used
+
+* Python
+* Pandas
+* NumPy
+* Matplotlib
+* Scikit-learn
+* Random Forest Regressor
+* Jupyter Notebook
