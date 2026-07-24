@@ -59,14 +59,6 @@ The notebook performs:
 * Random Forest Model Training
 * Model Evaluation
 
-### 2. Run the application
-
-```bash
-python app.py
-```
-
-The application loads the trained Random Forest model and predicts house prices.
-
 ---
 
 ## How to Run
@@ -90,10 +82,6 @@ pip install pandas numpy scikit-learn matplotlib seaborn jupyter datetime loggin
 ```bash
 python app.py
 ```
-
-### Check Outputs
-
-The generated outputs, logs, or predictions will be available in the **logs/** directory.
 
 ---
 
